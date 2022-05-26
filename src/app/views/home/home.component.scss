@@ -1,0 +1,45 @@
+.bg-home {
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 240, 203);
+    background: radial-gradient(circle, rgba(255, 240, 203, 1) 12%, rgba(255, 193, 4, 1) 100%);
+    .container-element {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .pikachu {
+            position: relative;
+            img {
+                width: 1061px;
+            }
+            .container-action {
+                position: absolute;
+                bottom: -53px;
+                left: 272px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .logo {
+                    width: 500px;
+                }
+                button {
+                    all: unset;
+                    z-index: 1;
+                    font-size: 15px;
+                    background-color: rgb(227, 227, 227);
+                    border: 6px solid rgb(121, 121, 121);
+                    margin: 2px;
+                    border-radius: 9px;
+                    color: rgb(71, 70, 70);
+                    box-shadow: 3px 5px 27px 4px rgb(0 0 0 / 8%);
+                    text-shadow: 2px 3px 1px #9090a0;
+                    width: 324px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+nav {
+    position: absolute;
+    z-index: 6;
+    ul {
+        display: flex;
+        li {
+            margin-right: 10px;
+            color: white;
+            list-style: none;
+            cursor: pointer;
+           
+        }
+        :hover {
+            border-bottom: 3px solid rgb(255, 255, 255);
+            transition: border-bottom ease-in .3s;
+        }
+    }
+}
