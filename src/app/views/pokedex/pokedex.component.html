@@ -27,13 +27,8 @@
                     </ng-template>
 
                     <p class="name"> {{pokemon.name}}</p>
-                    <!-- 
-                    <ng-container [ngSwitch]="pokemon.specimenWeightType">
-                        <p *ngSwitchCase="'S'">petizo orejudo</p>
-                        <p *ngSwitchCase="'XL'">gordo gay</p>
-                        <p *ngSwitchDefault>normalito y culiado</p>
+                    
 
-                    </ng-container> -->
 
                     <div class="container-types">
                         <div *ngFor="let typePokemon of pokemon.types">
